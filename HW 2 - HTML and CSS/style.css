@@ -1,0 +1,26 @@
+table {
+    border-style: solid;
+    border-color: lightgray;
+}
+
+th, td {
+    border-style: solid;
+    border-color: grey;
+    text-align: center;
+}
+
+#inner-content {
+    margin: 0 auto;
+    background-color: lightblue;
+    width: 75%;
+    text-align: center;
+}
+
+#outter-content {
+    position: relative;
+    margin-left: 0px;
+    margin-top: 20px;
+    background-color: lightpink;
+    width: 75%;
+    padding: 10px;
+}
