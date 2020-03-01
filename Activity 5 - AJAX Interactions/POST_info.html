@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>AJAX Interactions (POST)</title>
+</head>
+<body>
+    <!-- Your actual page content here -->
+    <script src="POST_script.js"></script>
+
+    <!-- POST Form Info-->
+    <form>
+        <fieldset>
+            <legend>Data Information (POST)</legend>
+            <fieldset>
+                <label>
+                    What's Your Name? <input type="text" name="name" id="user_name" />
+                    <br />
+                    What's Your Student ID Number? <input type="number" name="id_num" id="id_number" />
+                    <br />
+                    What's Your Email Address? <input type="text" name="address" id="email"
+                </label>
+            </fieldset>
+            <br />
+            <label>
+                <input type="submit" name="submit" id="POST_url" />
+            </label>
+        </fieldset>
+    </form>
+
+    <br />
+    <br />
+
+    <!--Display Information-->
+    <table>
+        <caption>Student Information</caption>
+        <tr>
+            <th>Description</th>
+            <th>Result</th>
+        </tr>
+        <tr>
+            <td>Student's Name:</td>
+            <td id="st_name"> </td>
+        </tr>
+
+        <tr>
+            <td>ID No.:</td>
+            <td id="num_id"> </td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td id="email_add"> </td>
+        </tr>
+    </table>
+</body>
+</html>

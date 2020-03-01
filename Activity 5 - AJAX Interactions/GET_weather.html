@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>AJAX Interactions (GET)</title>
+</head>
+<body>
+    <!-- Your actual page content here -->
+    <script src="GET_script.js"></script>
+
+    <!-- GET Form Weather-->
+    <form>
+        <fieldset>
+            <legend>Open Weather Map (GET)</legend>
+            <fieldset>
+                <label>
+                    Enter Zip Code: <input type="number" name="zip1" id="zipcode" />
+                    , Country Code: <input type="text" name="cc1" id="c1" />
+                    <br />
+                    <br />
+                    OR
+                    <br />
+                    <br />
+                    Enter City Name: <input type="text" name="name1" id="city" />
+                    , Country Code: <input type="text" name="cc2" id="c2" />
+                </label>
+            </fieldset>
+            <br />
+            <label>
+                <input type="submit" name="submit" id="GET_url" />
+            </label>
+        </fieldset>
+    </form>
+
+    <br />
+    <br />
+
+    <!--Display Information-->
+    <table>
+        <caption>Weather Information</caption>
+        <tr>
+            <th>Description</th>
+            <th>Result</th>
+        </tr>
+        <tr>
+            <td>Temperature:</td>
+            <td id="temperature"> </td>
+        </tr>
+
+        <tr>
+            <td>Humidity:</td>
+            <td id="humidity"> </td>
+        </tr>
+        <tr>
+            <td>Pressure:</td>
+            <td id="pressure"> </td>
+        </tr>
+        <tr>
+            <td>Sunrise:</td>
+            <td id="sunrise"> </td>
+        </tr>
+    </table>
+</body>
+</html>
