@@ -1,0 +1,45 @@
+<h1>Exercise Record</h1>
+<p>Please record your exercise! </p>
+
+<form action=http://flip3.engr.oregonstate.edu:2492/>
+    <fieldset>
+        <legend>Add a Workout:</legend>
+        <label for="name"></label>
+        <label>
+            Name:
+            <input id="name" type="text" name="name" value={{name}}>
+        </label>
+        <br />
+        <br />
+        <label>
+            Reps:
+            <input id="reps_in" type="number" name="reps" value={{reps}}>
+        </label>
+        <br />
+        <br />
+        <label>
+            Weight:
+            <input id="weight_in" type="number" name="weight" value={{weight}}>
+        </label>
+        <br />
+        <br />
+        <label>
+            Date:
+            <input id="date_in" type="text" name="date" value={{date}}>
+        </label>
+        <label style="display: none">
+            <input id="id_in" type="number" name="id" value={{id}}>
+        </label>
+        <br />
+        <br />
+        <input id="lbs_true" type="radio" name="lbs" value="1" />Lbs</label>
+        <input id="lbs_false" type="radio" name="lbs" value="0" />Kg</label>
+        <br />
+        <br />
+        <input type="submit" id="submit">
+    </fieldset>
+</form>
+
+<script>
+    console.log("Edit page");
+</script>
